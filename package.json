@@ -3,6 +3,10 @@
   "displayName": "EVM Watcher",
   "version": "1.0.1",
   "description": "Fault tolerant event watcher for topics on the ethereum virtual machine.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deanshelton913/EvmWatcher"
+  },
   "keywords": [
     "Ethereum",
     "EVM",
