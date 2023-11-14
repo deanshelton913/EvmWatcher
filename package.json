@@ -1,7 +1,7 @@
 {
   "name": "evm-watcher",
   "displayName": "EVM Watcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fault tolerant event watcher for topics on the ethereum virtual machine.",
   "keywords": [
     "Ethereum",
