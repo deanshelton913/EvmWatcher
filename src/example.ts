@@ -26,12 +26,12 @@ const dao = {
     return undefined;
   },
 };
-
+if(!process.env.RPC_ENDPOINT) throw new Error('Missing RPC_ENDPOINT')
 const watcher = new EvmWatcher({
   dao,
   initialParams: { startBlock: 2239115, endBlock: 6909379, maxLogBatchSize: 10000 },
   sleepTime: 5000,
-  url: '<ALCHEMY_ENDPOINT_URL>',
+  url: process.env.RPC_ENDPOINT,
   useWebSockets: false,
   buffer: 1,
   onError:(e: Error) => {
